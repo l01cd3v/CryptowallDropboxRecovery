@@ -10,7 +10,7 @@ This repository contains the python code I created and used to recover a friend'
 1. Install the Dropbox SDK
 <pre>$ pip install -r requirements.txt</pre>
 1. In your browser, connect to your dropbox account
-1. Create one -- or two -- new Dropbox Core application(s)
+1. Create a new Dropbox Core application(s)
   1. Browse to the console API at https://www.dropbox.com/developers/apps
   1. Create a new application with the following settings
     * Type of application: "Dropbox Core API"
