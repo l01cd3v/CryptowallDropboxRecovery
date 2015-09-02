@@ -1,12 +1,15 @@
 from dropbox import client, rest, session
 import sys
 
+APP_KEY = 'YOUR_APP_KEY_HERE'
+APP_SECRET = 'YOUR_APP_SECRET_HERE'
+
 #
 # Request authorization code (via browser)
 #
-def do_login(app_key, app_secret):
+def do_login():
     """log in to a Dropbox account"""
-    flow = client.DropboxOAuth2FlowNoRedirect(app_key, app_secret)
+    flow = client.DropboxOAuth2FlowNoRedirect(APP_KEY, APP_SECRET)
     authorize_url = flow.start()
     sys.stderr.write("1. Go to: " + authorize_url + "\n")
     sys.stderr.write("2. Click \"Allow\" (you might have to log in first).\n")

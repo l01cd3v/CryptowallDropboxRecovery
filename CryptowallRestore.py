@@ -41,9 +41,7 @@ def restore_folder(api_client, path):
 ################################################################################
 ##### Initialize the Dropbox client
 ################################################################################
-APP_KEY = 'ENTER_YOUR_APP_KEY_HERE'
-APP_SECRET = 'ENTER_YOUR_APP_SECRET_HERE'
-api_client = initialize_dropbox_client(APP_KEY, APP_SECRET)
+api_client = initialize_dropbox_client()
 if not api_client:
     sys.stdout.write('Error: failed to initialize Dropbox client.\n')
     sys.exit(1)
