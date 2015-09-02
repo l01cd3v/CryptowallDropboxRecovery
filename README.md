@@ -3,7 +3,7 @@ CryptowallDropboxRecovery
 
 This repository contains the python code I created and used to recover a
 friend's file after they were victim of Cryptowall. It addresses a particular
-case where most of my friend's files were stored in Dropbox. Because Dropbox
+case where all of my friend's important files were stored in Dropbox. Because Dropbox
 offers free versioning to all users for a 30-day period and because my friend
 contacted me within a day of the compromise, I was able to restore most of her
 files. Note that **I do not recommend the use of Dropbox as a primary backup
