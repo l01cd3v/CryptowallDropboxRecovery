@@ -5,11 +5,11 @@ CryptowallDropboxRecovery
 
 1. Clone this repository
 
-    $ git clone git@github.com:l01cd3v/CryptowallDropboxRecovery.git
+<pre>$ git clone git@github.com:l01cd3v/CryptowallDropboxRecovery.git</pre>
 
 1. Install the Dropbox SDK
 
-    $ pip install -r requirements.txt
+<pre>$ pip install -r requirements.txt</pre>
 
 1. Connect to your dropbox account
 1. Create one -- or two -- new Dropbox Core application(s)
