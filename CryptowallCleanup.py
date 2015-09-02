@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from CryptowallDropboxRestoreLib.utils import *
+from CryptowallDropboxRecoveryLib.utils import *
 import sys
 
 #

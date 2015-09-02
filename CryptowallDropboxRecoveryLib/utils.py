@@ -26,10 +26,10 @@ def do_login():
 #
 # Initialize the session and Dropbox client
 #
-def initialize_dropbox_client(app_key, app_secret):
+def initialize_dropbox_client():
     api_client = None
     try:
-        access_token = do_login(app_key, app_secret)
+        access_token = do_login()
         api_client = client.DropboxClient(access_token)
         sys.stdout.write('Dropbox client initialized...\n')
     except Exception as e:
