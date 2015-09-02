@@ -5,7 +5,7 @@ CryptowallDropboxRecovery
 
 1. Clone this repository
 
-	$ git clone git@github.com:l01cd3v/CryptowallDropboxRecovery.git
+    $ git clone git@github.com:l01cd3v/CryptowallDropboxRecovery.git
 
 1. Install the Dropbox SDK
 
