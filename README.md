@@ -17,7 +17,7 @@ of this project.
 <pre>$ git clone git@github.com:l01cd3v/CryptowallDropboxRecovery.git</pre>
 1. Install the Dropbox SDK
 <pre>$ pip install -r requirements.txt</pre>
-1. In your browser, connect to your dropbox account
+1. In your browser, connect to your Dropbox account
 1. Create a new Dropbox Core application(s)
   1. Browse to the console API at https://www.dropbox.com/developers/apps
   1. Create a new application with the following settings
